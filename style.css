@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', 'Caveat', sans-serif;
+    background: linear-gradient(to bottom, purple, black);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.readme-generator {
+    background-color: #f7f7f7;
+    align-self: center;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 10px auto;
+  }
+      
+  .readme-generator .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .readme-generator .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .readme-generator .inputs {
+    margin-top: 20px;
+  }
+  
+  .readme-generator input, .readme-generator textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .readme-generator .button {
+    text-align: center;
+    justify-content: center;
+  }
+
+input, textarea, button {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+textarea {
+    height: 40px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+pre {
+    background: #eee;
+    width: 80%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
