@@ -1,7 +1,7 @@
 # pimp-daddy-readme-generator
 
 ## Description
-A JavaScript project to build a slick web app.
+A JavaScript project to build a slick web app that generates README.md files.
 
 ## Installation
 Clone the repo:
