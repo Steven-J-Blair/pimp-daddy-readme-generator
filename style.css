@@ -73,12 +73,16 @@ textarea {
 }
 
 button {
-    background: #007BFF;
+    background: black;
     color: white;
     text-align: center;
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+
+upgradeButton {
+    background: gold; 
 }
 
 button:hover {
