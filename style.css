@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', 'Caveat', sans-serif;
-    background: linear-gradient(to bottom, purple, black);
+    background: linear-gradient(to bottom, rgb(97, 1, 97), black);
     margin: 0;
     padding: 0;
     display: flex;
