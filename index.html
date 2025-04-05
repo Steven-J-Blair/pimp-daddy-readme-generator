@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[P.D.R.G.]</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div class="readme-generator">
@@ -12,10 +13,9 @@
         <div class="subtitle">Pimp-Daddy-README.md-Generator</h3>
             <form id="readmeForm">
                 <input type="text" id="repo_url" placeholder="GitHub Repo URL (e.g., https://github.com/username/repo)">
+                <button type="button" onclick="clearForm()">Clear Form</button>
                 <input type="text" id="project_name" placeholder="Project Name" required>
-                <textarea id="description" placeholder="Project Description"></textarea>
-            <input type="text" id="project_name" placeholder="Project Name" required>
-            <textarea id="description" placeholder="Project Description"></textarea>
+                <textarea id="description" placeholder="Project Description"></textarea>          
             <textarea id="installation" placeholder="Installation Steps"></textarea>
             <textarea id="usage" placeholder="Usage Instructions"></textarea>
             <input type="text" id="license" placeholder="License">
@@ -24,12 +24,19 @@
             <textarea id="tests" placeholder="Test Instructions"></textarea>
             <input type="text" id="authors" placeholder="Authors">
             <textarea id="acknowledgments" placeholder="Acknowledgments"></textarea>
-            <button type="submit">Generate FREE README.md</button>
+            <pre id="output"></pre>
+            <button type="submit">Generate Pimped Out README.md</button>
             <button type="button" id="upgradeButton" onclick="window.open('https://steven-j-blair.github.io/pimp-daddy-landing-page/', '_blank')">UPGRADE TO PRO!</button>
         </form>
-        <pre id="output"></pre>
     </div>
     <script src="script.js"></script>
+    <button onclick="shareOnX()">Share [P.D.R.G.] on X</button>
+<script>
+  function shareOnX() {
+    const text = "Just pimped my README with [P.D.R.G.]—so easy! Free Tier: https://steven-j-blair.github.io/pimp-daddy-readme-generator/ Pro’s $5: https://stevenjblair.gumroad.com/l/rkcxv";
+    window.open(`https://x.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank");
+  }
+</script>
 </body>
 </html>
 

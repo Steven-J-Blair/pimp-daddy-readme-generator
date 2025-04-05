@@ -14,7 +14,7 @@ body {
 }
 
 .readme-generator {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     align-self: center;
     display: inline-block;
     padding: 20px;
@@ -81,17 +81,33 @@ button {
     cursor: pointer;
 }
 
-upgradeButton {
-    background: gold; 
+#upgradeButton {
+    background: rgb(255, 251, 0);
+    color: black; 
 }
 
+#upgradeButton:hover {
+    background: #fffd6b; 
+}
 button:hover {
-    background: #0056b3;
+    background: #555555;
 }
 
 pre {
-    background: #eee;
-    width: 80%;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+  background: #f1f1f1;
+  width: 80%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre#output {
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+  min-height: 200px;
+  width: 94%;
+  white-space: normal;
+  align-items: center;
+  text-align: left;
+  overflow-y: auto;
 }
