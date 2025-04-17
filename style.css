@@ -13,6 +13,18 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 600px) {
+    /* Styles for tablets and smaller devices */
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Styles for smartphones */
+  }
+
+  @media screen and (max-width: 320px) {
+    /* Styles for very small devices */
+  }
+
 .readme-generator {
     background-color: #ffffff;
     align-self: center;
