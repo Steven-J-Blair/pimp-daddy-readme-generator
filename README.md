@@ -9,7 +9,7 @@ git clone https://github.com/Steven-J-Blair/pimp-daddy-readme-generator
 Follow the setup instructions in the repo.
 
 ## Usage
-Drag the bottom right corner of the box to resize. Once satisfied with result, click the blue Download FREE README.md button at the bottom of the generator. A README.md file will be generated and sent to your current download folder.
+Drag the bottom right corner of the box to resize. Either insert a repo url or enter manual input. Once satisfied with result, click the blue Download FREE README.md button at the bottom of the generator. A README.md file will be generated and sent to your current download folder. 
 
 ## License
 MIT
@@ -18,7 +18,7 @@ MIT
 Listed in package.json
 
 ## Contributing
-Fork it, make a PR, or open an issue—let’s build this together!
+Fork it, make a PR, or open an issue—let’s innovate!
 
 ## Tests
 Tests coming soon stay tuned!
