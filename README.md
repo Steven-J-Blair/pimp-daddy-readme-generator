@@ -1,4 +1,4 @@
-# pimp-daddy-readme-generator
+# [P.D.R.G.]-Pimp-Daddy-ReadME-Generator 
 
 ## Description
 A JavaScript project to build a slick web app that generates README.md files.
